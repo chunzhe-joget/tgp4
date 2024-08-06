@@ -1,7 +1,16 @@
 {
     "elements": [{
         "elements": [{
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.PasswordField",
+                "properties": {
+                    "strengthChecker": "False",
+                    "readonly": "False",
+                    "label": "Password Field",
+                    "id": "field1",
+                    "readonlyLabel": "False"
+                }
+            }],
             "className": "org.joget.apps.form.model.Column",
             "properties": {"width": "100%"}
         }],
